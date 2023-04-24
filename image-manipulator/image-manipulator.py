@@ -8,7 +8,7 @@ for filename in os.listdir(): # Creating variables for every image in the direct
 
 print('Welcome to the Python Interactive Image Manipulation Tool.')
 while True:
-    print('Valid commands: Open, Open JPEG, Open JPG, Open PNG, Open All, Convert, Resize, Rotate, BW, Blur')
+    print('Valid commands: Open, Open JPEG, Open JPG, Open PNG, Open All, Convert, Resize, Rotate, BW, Blur or Quit')
     choice = input("What would you like to do? ").upper()
     
     if choice == 'OPEN':
